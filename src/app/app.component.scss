@@ -1,0 +1,25 @@
+.content{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.content1{
+display:grid;
+grid-template-columns:2fr 1fr;
+}
+
+.content2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.score{
+margin-top:.5em;
+margin-right: .5em;
+font-size: 2em;
+}
+
+.fa{
+    cursor: pointer;
+    font-size: 5em;
+}
